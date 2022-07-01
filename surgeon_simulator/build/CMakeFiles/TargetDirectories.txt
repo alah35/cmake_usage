@@ -1,0 +1,6 @@
+/home/alah/HomeWorks/cmake_usage/surgeon_simulator/build/CMakeFiles/edit_cache.dir
+/home/alah/HomeWorks/cmake_usage/surgeon_simulator/build/CMakeFiles/rebuild_cache.dir
+/home/alah/HomeWorks/cmake_usage/surgeon_simulator/build/src/CMakeFiles/surg_sim.dir
+/home/alah/HomeWorks/cmake_usage/surgeon_simulator/build/src/CMakeFiles/my_lib.dir
+/home/alah/HomeWorks/cmake_usage/surgeon_simulator/build/src/CMakeFiles/edit_cache.dir
+/home/alah/HomeWorks/cmake_usage/surgeon_simulator/build/src/CMakeFiles/rebuild_cache.dir

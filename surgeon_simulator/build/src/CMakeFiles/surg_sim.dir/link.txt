@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/surg_sim.dir/main.cpp.o -o surg_sim  libmy_lib.a 
