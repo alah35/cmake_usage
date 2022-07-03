@@ -141,7 +141,7 @@ src/CMakeFiles/comp_sim.dir/main.cpp.o: \
  /usr/include/c++/10/bits/basic_ios.tcc \
  /usr/include/c++/10/bits/ostream.tcc /usr/include/c++/10/istream \
  /usr/include/c++/10/bits/istream.tcc \
- /home/alah/HomeWorks/cmake_usage/computer_simulation/include/kbd.h \
  /home/alah/HomeWorks/cmake_usage/computer_simulation/include/gpu.h \
  /home/alah/HomeWorks/cmake_usage/computer_simulation/include/ram.h \
+ /home/alah/HomeWorks/cmake_usage/computer_simulation/include/kbd.h \
  /home/alah/HomeWorks/cmake_usage/computer_simulation/include/cpu.h

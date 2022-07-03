@@ -1,4 +1,4 @@
-#include "../include/ram.h"
+#include "ram.h"
 
 double buff[8];
 

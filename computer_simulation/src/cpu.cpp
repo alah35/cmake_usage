@@ -1,4 +1,4 @@
-#include "../include/cpu.h"
+#include "cpu.h"
 
 double compute(double* arr) {
     double sum = 0;

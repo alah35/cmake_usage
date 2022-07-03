@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/gpu.h"
+#include "gpu.h"
 
 void show(double *arr) {
     for (int i = 0; i < 8; i++) {

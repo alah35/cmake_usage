@@ -181,8 +181,7 @@ src/CMakeFiles/my_lib.dir/gpu.cpp.o: ../src/gpu.cpp \
   /usr/include/c++/10/bits/ostream.tcc \
   /usr/include/c++/10/istream \
   /usr/include/c++/10/bits/istream.tcc \
-  ../include/gpu.h \
-  ../include/ram.h
+  ../include/gpu.h
 
 src/CMakeFiles/my_lib.dir/kbd.cpp.o: ../src/kbd.cpp \
   /usr/include/stdc-predef.h \

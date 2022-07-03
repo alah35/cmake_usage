@@ -1,8 +1,8 @@
 #include <iostream>
-#include "../include/gpu.h"
-#include "../include/ram.h"
-#include "../include/kbd.h"
-#include "../include/cpu.h"
+#include "gpu.h"
+#include "ram.h"
+#include "kbd.h"
+#include "cpu.h"
 
 int main() {
     double _buff[8];

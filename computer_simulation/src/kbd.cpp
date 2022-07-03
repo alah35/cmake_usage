@@ -1,4 +1,4 @@
-#include "../include/kbd.h"
+#include "kbd.h"
 #include <iostream>
 
 void input(double *arr) {

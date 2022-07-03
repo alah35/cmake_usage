@@ -184,7 +184,6 @@ src/CMakeFiles/my_lib.dir/gpu.cpp.o
  /usr/include/c++/10/istream
  /usr/include/c++/10/bits/istream.tcc
  /home/alah/HomeWorks/cmake_usage/computer_simulation/include/gpu.h
- /home/alah/HomeWorks/cmake_usage/computer_simulation/include/ram.h
 
 src/CMakeFiles/my_lib.dir/kbd.cpp.o
  /home/alah/HomeWorks/cmake_usage/computer_simulation/src/kbd.cpp
