@@ -1,0 +1,6 @@
+/home/alah/HomeWorks/cmake_usage/computer_simulation/build/CMakeFiles/edit_cache.dir
+/home/alah/HomeWorks/cmake_usage/computer_simulation/build/CMakeFiles/rebuild_cache.dir
+/home/alah/HomeWorks/cmake_usage/computer_simulation/build/src/CMakeFiles/comp_sim.dir
+/home/alah/HomeWorks/cmake_usage/computer_simulation/build/src/CMakeFiles/my_lib.dir
+/home/alah/HomeWorks/cmake_usage/computer_simulation/build/src/CMakeFiles/edit_cache.dir
+/home/alah/HomeWorks/cmake_usage/computer_simulation/build/src/CMakeFiles/rebuild_cache.dir
