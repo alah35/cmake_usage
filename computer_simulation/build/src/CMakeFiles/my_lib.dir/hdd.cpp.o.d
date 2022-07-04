@@ -1,6 +1,8 @@
-src/CMakeFiles/comp_sim.dir/main.cpp.o: \
- /home/alah/HomeWorks/cmake_usage/computer_simulation/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/10/iostream \
+src/CMakeFiles/my_lib.dir/hdd.cpp.o: \
+ /home/alah/HomeWorks/cmake_usage/computer_simulation/src/hdd.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/10/fstream \
+ /usr/include/c++/10/istream /usr/include/c++/10/ios \
+ /usr/include/c++/10/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -9,8 +11,7 @@ src/CMakeFiles/comp_sim.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
- /usr/include/c++/10/ostream /usr/include/c++/10/ios \
- /usr/include/c++/10/iosfwd /usr/include/c++/10/bits/stringfwd.h \
+ /usr/include/c++/10/bits/stringfwd.h \
  /usr/include/c++/10/bits/memoryfwd.h /usr/include/c++/10/bits/postypes.h \
  /usr/include/c++/10/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -138,10 +139,10 @@ src/CMakeFiles/comp_sim.dir/main.cpp.o: \
  /usr/include/c++/10/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
  /usr/include/c++/10/bits/locale_facets.tcc \
- /usr/include/c++/10/bits/basic_ios.tcc \
- /usr/include/c++/10/bits/ostream.tcc /usr/include/c++/10/istream \
- /usr/include/c++/10/bits/istream.tcc \
- /home/alah/HomeWorks/cmake_usage/computer_simulation/include/gpu.h \
- /home/alah/HomeWorks/cmake_usage/computer_simulation/include/kbd.h \
- /home/alah/HomeWorks/cmake_usage/computer_simulation/include/cpu.h \
+ /usr/include/c++/10/bits/basic_ios.tcc /usr/include/c++/10/ostream \
+ /usr/include/c++/10/bits/ostream.tcc \
+ /usr/include/c++/10/bits/istream.tcc /usr/include/c++/10/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc /usr/include/c++/10/iostream \
  /home/alah/HomeWorks/cmake_usage/computer_simulation/include/hdd.h

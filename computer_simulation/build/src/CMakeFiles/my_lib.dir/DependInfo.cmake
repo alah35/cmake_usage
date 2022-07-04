@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/alah/HomeWorks/cmake_usage/computer_simulation/src/cpu.cpp" "src/CMakeFiles/my_lib.dir/cpu.cpp.o" "gcc" "src/CMakeFiles/my_lib.dir/cpu.cpp.o.d"
   "/home/alah/HomeWorks/cmake_usage/computer_simulation/src/gpu.cpp" "src/CMakeFiles/my_lib.dir/gpu.cpp.o" "gcc" "src/CMakeFiles/my_lib.dir/gpu.cpp.o.d"
+  "/home/alah/HomeWorks/cmake_usage/computer_simulation/src/hdd.cpp" "src/CMakeFiles/my_lib.dir/hdd.cpp.o" "gcc" "src/CMakeFiles/my_lib.dir/hdd.cpp.o.d"
   "/home/alah/HomeWorks/cmake_usage/computer_simulation/src/kbd.cpp" "src/CMakeFiles/my_lib.dir/kbd.cpp.o" "gcc" "src/CMakeFiles/my_lib.dir/kbd.cpp.o.d"
   "/home/alah/HomeWorks/cmake_usage/computer_simulation/src/ram.cpp" "src/CMakeFiles/my_lib.dir/ram.cpp.o" "gcc" "src/CMakeFiles/my_lib.dir/ram.cpp.o.d"
   )

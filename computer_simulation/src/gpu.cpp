@@ -1,8 +1,10 @@
 #include <iostream>
 #include "gpu.h"
 
-void show(double *arr) {
-    for (int i = 0; i < 8; i++) {
-        std::cout << arr[i] << std::endl;
+extern double *read();
+
+void display() {
+    for (auto i = read(); i < read() + 8; i++) {
+        std::cout << *i << std::endl;
     }
 }

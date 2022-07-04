@@ -1,9 +1,11 @@
 #include "cpu.h"
 
-double compute(double* arr) {
+extern double *read();
+
+double sum() {
     double sum = 0;
-    for (int i = 0; i < 8; i++) 
-        sum += arr[i];
+    for (auto i = read(); i < read() + 8; i++)
+        sum += *i;
     return sum;
 }
 

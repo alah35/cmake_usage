@@ -192,6 +192,30 @@ gpu.cpp.s:
 	cd /home/alah/HomeWorks/cmake_usage/computer_simulation/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_lib.dir/build.make src/CMakeFiles/my_lib.dir/gpu.cpp.s
 .PHONY : gpu.cpp.s
 
+hdd.o: hdd.cpp.o
+.PHONY : hdd.o
+
+# target to build an object file
+hdd.cpp.o:
+	cd /home/alah/HomeWorks/cmake_usage/computer_simulation/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_lib.dir/build.make src/CMakeFiles/my_lib.dir/hdd.cpp.o
+.PHONY : hdd.cpp.o
+
+hdd.i: hdd.cpp.i
+.PHONY : hdd.i
+
+# target to preprocess a source file
+hdd.cpp.i:
+	cd /home/alah/HomeWorks/cmake_usage/computer_simulation/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_lib.dir/build.make src/CMakeFiles/my_lib.dir/hdd.cpp.i
+.PHONY : hdd.cpp.i
+
+hdd.s: hdd.cpp.s
+.PHONY : hdd.s
+
+# target to generate assembly for a file
+hdd.cpp.s:
+	cd /home/alah/HomeWorks/cmake_usage/computer_simulation/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_lib.dir/build.make src/CMakeFiles/my_lib.dir/hdd.cpp.s
+.PHONY : hdd.cpp.s
+
 kbd.o: kbd.cpp.o
 .PHONY : kbd.o
 
@@ -280,6 +304,9 @@ help:
 	@echo "... gpu.o"
 	@echo "... gpu.i"
 	@echo "... gpu.s"
+	@echo "... hdd.o"
+	@echo "... hdd.i"
+	@echo "... hdd.s"
 	@echo "... kbd.o"
 	@echo "... kbd.i"
 	@echo "... kbd.s"

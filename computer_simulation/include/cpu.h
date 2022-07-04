@@ -1,4 +1,4 @@
 #pragma once
 
-double compute(double* arr);
+double sum();
 

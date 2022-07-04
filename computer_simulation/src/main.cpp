@@ -1,14 +1,24 @@
 #include <iostream>
 #include "gpu.h"
-#include "ram.h"
 #include "kbd.h"
 #include "cpu.h"
+#include "hdd.h"
 
 int main() {
-    double _buff[8];
-    input(_buff);
-    write(_buff);
-    show(read());
-    std::cout << compute(read()) << std::endl;
+    std::string command;
+    while (command != "exit") {
+        std::cout << "Enter a command:" << std::endl;
+        std::cin >> command;
+        if (command == "input")
+            input();
+        if (command == "display" || command == "disp")
+            display();
+        if (command == "sum")
+            std::cout << sum() << std::endl;
+        if (command == "load")
+            load();
+        if (command == "save")
+            save();
+    }
     return 0;
 }

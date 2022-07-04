@@ -1,6 +1,7 @@
+#include <iterator>
 #include "ram.h"
 
-double buff[8];
+static double buff[8];
 
 void write(double *arr) {
     for (int i = 0; i < 8; i++)

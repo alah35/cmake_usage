@@ -111,10 +111,24 @@ src/CMakeFiles/my_lib.dir/ram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_lib.dir/ram.cpp.s"
 	cd /home/alah/HomeWorks/cmake_usage/computer_simulation/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alah/HomeWorks/cmake_usage/computer_simulation/src/ram.cpp -o CMakeFiles/my_lib.dir/ram.cpp.s
 
+src/CMakeFiles/my_lib.dir/hdd.cpp.o: src/CMakeFiles/my_lib.dir/flags.make
+src/CMakeFiles/my_lib.dir/hdd.cpp.o: ../src/hdd.cpp
+src/CMakeFiles/my_lib.dir/hdd.cpp.o: src/CMakeFiles/my_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alah/HomeWorks/cmake_usage/computer_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/my_lib.dir/hdd.cpp.o"
+	cd /home/alah/HomeWorks/cmake_usage/computer_simulation/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/my_lib.dir/hdd.cpp.o -MF CMakeFiles/my_lib.dir/hdd.cpp.o.d -o CMakeFiles/my_lib.dir/hdd.cpp.o -c /home/alah/HomeWorks/cmake_usage/computer_simulation/src/hdd.cpp
+
+src/CMakeFiles/my_lib.dir/hdd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_lib.dir/hdd.cpp.i"
+	cd /home/alah/HomeWorks/cmake_usage/computer_simulation/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alah/HomeWorks/cmake_usage/computer_simulation/src/hdd.cpp > CMakeFiles/my_lib.dir/hdd.cpp.i
+
+src/CMakeFiles/my_lib.dir/hdd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_lib.dir/hdd.cpp.s"
+	cd /home/alah/HomeWorks/cmake_usage/computer_simulation/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alah/HomeWorks/cmake_usage/computer_simulation/src/hdd.cpp -o CMakeFiles/my_lib.dir/hdd.cpp.s
+
 src/CMakeFiles/my_lib.dir/kbd.cpp.o: src/CMakeFiles/my_lib.dir/flags.make
 src/CMakeFiles/my_lib.dir/kbd.cpp.o: ../src/kbd.cpp
 src/CMakeFiles/my_lib.dir/kbd.cpp.o: src/CMakeFiles/my_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alah/HomeWorks/cmake_usage/computer_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/my_lib.dir/kbd.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alah/HomeWorks/cmake_usage/computer_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/my_lib.dir/kbd.cpp.o"
 	cd /home/alah/HomeWorks/cmake_usage/computer_simulation/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/my_lib.dir/kbd.cpp.o -MF CMakeFiles/my_lib.dir/kbd.cpp.o.d -o CMakeFiles/my_lib.dir/kbd.cpp.o -c /home/alah/HomeWorks/cmake_usage/computer_simulation/src/kbd.cpp
 
 src/CMakeFiles/my_lib.dir/kbd.cpp.i: cmake_force
@@ -130,6 +144,7 @@ my_lib_OBJECTS = \
 "CMakeFiles/my_lib.dir/cpu.cpp.o" \
 "CMakeFiles/my_lib.dir/gpu.cpp.o" \
 "CMakeFiles/my_lib.dir/ram.cpp.o" \
+"CMakeFiles/my_lib.dir/hdd.cpp.o" \
 "CMakeFiles/my_lib.dir/kbd.cpp.o"
 
 # External object files for target my_lib
@@ -138,10 +153,11 @@ my_lib_EXTERNAL_OBJECTS =
 src/libmy_lib.a: src/CMakeFiles/my_lib.dir/cpu.cpp.o
 src/libmy_lib.a: src/CMakeFiles/my_lib.dir/gpu.cpp.o
 src/libmy_lib.a: src/CMakeFiles/my_lib.dir/ram.cpp.o
+src/libmy_lib.a: src/CMakeFiles/my_lib.dir/hdd.cpp.o
 src/libmy_lib.a: src/CMakeFiles/my_lib.dir/kbd.cpp.o
 src/libmy_lib.a: src/CMakeFiles/my_lib.dir/build.make
 src/libmy_lib.a: src/CMakeFiles/my_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alah/HomeWorks/cmake_usage/computer_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libmy_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alah/HomeWorks/cmake_usage/computer_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libmy_lib.a"
 	cd /home/alah/HomeWorks/cmake_usage/computer_simulation/build/src && $(CMAKE_COMMAND) -P CMakeFiles/my_lib.dir/cmake_clean_target.cmake
 	cd /home/alah/HomeWorks/cmake_usage/computer_simulation/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_lib.dir/link.txt --verbose=$(VERBOSE)
 

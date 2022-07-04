@@ -177,17 +177,19 @@ src/CMakeFiles/comp_sim.dir/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/10/bits/ostream.tcc \
   /usr/include/c++/10/istream \
   /usr/include/c++/10/bits/istream.tcc \
-  ../include/kbd.h \
   ../include/gpu.h \
-  ../include/ram.h \
-  ../include/cpu.h
+  ../include/kbd.h \
+  ../include/cpu.h \
+  ../include/hdd.h
 
+
+../include/hdd.h:
 
 ../include/cpu.h:
 
-../include/gpu.h:
-
 ../include/kbd.h:
+
+../include/gpu.h:
 
 /usr/include/c++/10/bits/istream.tcc:
 
@@ -376,8 +378,6 @@ src/CMakeFiles/comp_sim.dir/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/10/bits/alloc_traits.h:
 
 /usr/include/c++/10/bits/postypes.h:
-
-../include/ram.h:
 
 /usr/include/c++/10/bits/functexcept.h:
 

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_lib.dir/cpu.cpp.o.d"
   "CMakeFiles/my_lib.dir/gpu.cpp.o"
   "CMakeFiles/my_lib.dir/gpu.cpp.o.d"
+  "CMakeFiles/my_lib.dir/hdd.cpp.o"
+  "CMakeFiles/my_lib.dir/hdd.cpp.o.d"
   "CMakeFiles/my_lib.dir/kbd.cpp.o"
   "CMakeFiles/my_lib.dir/kbd.cpp.o.d"
   "CMakeFiles/my_lib.dir/ram.cpp.o"
